@@ -1,10 +1,7 @@
 #home {
-  background-color: #D23333;
+  background-color: black;
   color: white;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   text-align: center;
   p {
     margin-top: 1.5em;
@@ -13,5 +10,14 @@
     color: rgba(0,0,0,0.4);
     font-weight: bold;
     font-size: 16px;
+  }
+}
+
+.socials {
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  i {
+    padding: 0px 15px;
   }
 }
